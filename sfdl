@@ -1,0 +1,16 @@
+RIGHT_ROTATE(T, x):
+    x = y.left
+    y.left = x.right;
+    if x.right != NIL:
+        x.right.p = y;
+    x.p = y.p
+    if y.p == NIL:
+        x.p = NIL
+    else if y.p.left == y:
+        y.p.left = x
+    else 
+        y.p.right = x;
+    x.right = y
+    y.p = x
+
+set global transction isolation level read committed   // MYSQL 

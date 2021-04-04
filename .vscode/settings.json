@@ -1,0 +1,31 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp",
+        "type_traits": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp",
+        "queue": "cpp",
+        "xlocale": "cpp",
+        "map": "cpp",
+        "stack": "cpp",
+        "ostream": "cpp",
+        "iosfwd": "cpp",
+        "utility": "cpp"
+    },
+    "editor.fontFamily": "Fira Code, Dengxian, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    
+    "terminal.integrated.fontFamily": "Fira Code, YaHei Consolas Hybrid",
+    
+    "files.autoSave": "onFocusChange",
+    
+    "fileheader.customMade": {
+        "Date": "Do not edit", // 文件创建时间(不变)
+        "LastEditors": "ecc", // 文件最后编辑者
+        "LastEditTime": "Do not edit", // 文件最后编辑时间
+        "FilePath": "Do not edit" // 文件在项目中的相对路径 自动更新
+      }
+    
+}
